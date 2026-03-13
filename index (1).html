@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sweet Sixteen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- INTRO SECTION -->
+<div id="intro" class="section">
+  <video src="intro.mp4" autoplay muted playsinline></video>
+  <button onclick="openCard()">Open the Envelope 💌</button>
+</div>
+
+<!-- CARD SECTION -->
+<div id="card" class="section hidden">
+<div class="card-page">
+
+  <h1 contenteditable="true" class="main-title">
+    Happiest Sweet Sixteenth Susu
+  </h1>
+
+  <p id="typedMessage" class="message">
+   
+  </p>
+
+  <a href="https://youtu.be/WAyxg68nUDc?si=CLEN6AMvGGwatsnm" target="_blank">
+  <button id="revealBtn" class="reveal-btn"
+  style="display:none;">
+Click to reveal surprise 🎁
+</button>
+
+ <div class="polaroid hidden" id="videoFrame">
+  <iframe width="300" height="170"
+src="https://www.youtube.com/embed/WAyxg68nUDc?si=CLEN6AMvGGwatsnm"
+frameborder="0"
+allowfullscreen>
+</iframe>
+</div>
+
+</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
